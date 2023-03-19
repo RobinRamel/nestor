@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Location appartement 1 pièce 18 m²",
+            "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1980&q=80",
+            "price": 525,
+            "tags": ["balcon", "parking"],
+            "description": "A proximité de toutes commodités et du métro GUILLOTIERE.\nDans une résidence étudiante sécurisée, studio entièrement meublé comprenant un coin cuisine équipée, un wc, une salle d'eau et du mobilier.\nLe tout pour une surface de 18.77 m².\nEspace buanderie en parties communes.\nEau froide collective (dans les charges)\nEau chaude et chauffage production individuelle électrique\nLoyer 525 euros par mois charges comprises dont :\n45 euros de charges locatives (provision donnant lieu à régularisation annuelle).\n38 euros de complément de loyer",
+            "rooms": 2,
+            "chamber": 0,
+            "surface": 18,
+            "localisation": {
+                "zipcode": "69007",
+                "city": "Lyon",
+                "adress": "10 rue de la victoire"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Location appartement meublé 59 m²",
+            "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "price": 2062,
+            "tags": ["terrasse", "jardin", "piscine", "garage", "parking", "meublé"],
+            "description": "Aménagé et décoré par une architecte, le confort et le charme du logement meublé est un plus dans cet arrondissement de Lyon. Cette location en meublé peut accueillir jusqu'à 4 personnes. Il se compose d'une entrée sur l'espace de vie. Une cuisine ouverte sur le salon et salle à manger. Deux chambres avec lit de 160cm avec placard. Salle de bain moderne avec douche et toilettes.",
+            "rooms": 3,
+            "chamber": 2,
+            "surface": 59,
+            "localisation": {
+                "zipcode": "69009",
+                "city": "Lyon",
+                "adress": "66 rue Louis Loucheur"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Location appartement meublé 3 pièces 45 m²",
+            "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
+            "price": 1500,
+            "tags": ["jardin", "ascenseur", "handicap", "meublé"],
+            "description": "appartement de standing de 45m², deux chambres, situé dans le quartier des artistes des bas des pentes de la ville de Lyon est idéal si bien pour un séjour professionnel que pour des vacances, il est un mélange d'authenticité et de modernité pour vous offrir un lieu unique, loin des pastiche et surtout un patio pour profiter d'un extérieur privatif en ville.",
+            "rooms": 4,
+            "chamber": 1,
+            "surface": 45,
+            "localisation": {
+                "zipcode": "69001",
+                "city": "Lyon",
+                "adress": "87 montée de la grande côte"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Location appartement meublé 2 pièces 52 m²",
+            "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+            "price": 1150,
+            "tags": ["garage", "sous-sol", "handicap", "meublé"],
+            "description": "T2 lumineux - Métro HENON. NOVEA Immobilier a le plaisir de vous proposer à la location cet appartement idéalement situé sur la plateau de La CROIX ROUSSE, à deux pas de la Fresque des Canuts.",
+            "rooms": 3,
+            "chamber": 1,
+            "surface": 52,
+            "localisation": {
+                "zipcode": "69002",
+                "city": "Lyon",
+                "adress": "26 rue pouteau"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Location appartement 1 pièce 39 m²",
+            "image": "https://images.unsplash.com/photo-1612320648993-61c1cd604b71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+            "price": 797,
+            "tags": ["balcon", "cave", "ascenseur", "handicap"],
+            "description": " LYON 1. Rue Audran - Un appartement studio de 39.20m², au 3ème étage sans ascenseur, composé d'une entrée avec rangements, une cuisine ouverte sur séjour, une chambre en mezzanine, avec placards, une salle de bain et un WC séparé. Une cave. Chauffage individuel électrique.",
+            "rooms": 2,
+            "chamber": 1,
+            "surface": 39,
+            "localisation": {
+                "zipcode": "69001",
+                "city": "Lyon",
+                "adress": "71 rue Audran"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Location studio 31 m²",
+            "image": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+            "price": 850,
+            "tags": ["cave", "jardin", "ascenseur", "meublé", "piscine"],
+            "description": "Plateau Croix Rousse, dans une résidence au calme. Situé au Rez -de -chaussée sur Elevé. Se composant d'une entrée desservant un séjour parqueté ouvert sur une alcôve et une cuisine, deux chambres , une salle de bains et un wc. Chauffage individuel Edf. Volume et charme sont réunis pour vous décider rapidement!",
+            "rooms": 2,
+            "chamber": 0,
+            "surface": 31,
+            "localisation": {
+                "zipcode": "69007",
+                "city": "Lyon",
+                "adress": "76 rue parmentier"
+            }
+        }
+    ]
+}
