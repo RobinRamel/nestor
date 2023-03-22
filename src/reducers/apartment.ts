@@ -7,6 +7,7 @@ export type Apartment = {
     id: number;
     name: string;
     image: string;
+    gallery: string[]
     price: number;
     tags: Tags[];
     description: string;
@@ -14,7 +15,7 @@ export type Apartment = {
     chamber: number;
     surface: number;
     localisation: {
-        zipCode: string;
+        zipcode: string;
         city: string;
         adress: string;
     }
@@ -41,11 +42,14 @@ export const ApartmentSlice = createSlice({
     },
     setLoading: (state, action) => {
       state.loading = action.payload
+    }, 
+    removeItem: (state, action) => {
+      state.data = state.data.filter((item) => item.id !== action.payload)
     }
   },
 })
 
-export const { initiateData, setLoading } = ApartmentSlice.actions
+export const { initiateData, setLoading, removeItem } = ApartmentSlice.actions
 
 // The function below is called a selector and allows us to select a value from
 // the state. Selectors can also be defined inline where they're used instead of
