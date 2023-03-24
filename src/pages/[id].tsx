@@ -28,7 +28,7 @@ const ApartmentView: NextPage = () => {
         if (newData) {
           setApartmentData(newData)
         } else {
-          setError(false)
+          setError(true)
         }
       }
 

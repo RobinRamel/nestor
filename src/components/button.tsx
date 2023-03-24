@@ -17,6 +17,7 @@ const Button = ({ id, actionType }: Props) => {
 
     const handleUpdate = () => {
         // Link to edit page with good id
+        push(`/update/${id}`)
     }
 
     const handleDelete = () => {

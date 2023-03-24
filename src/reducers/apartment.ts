@@ -45,6 +45,9 @@ export const ApartmentSlice = createSlice({
     }, 
     removeItem: (state, action) => {
       state.data = state.data.filter((item) => item.id !== action.payload)
+    },
+    setTags: (state, action) => {
+      
     }
   },
 })

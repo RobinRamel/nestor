@@ -21,13 +21,13 @@ export const getApartmentList = () => {
 }
 
 export const getApartmentById = (id: number) => {
-    const data = getApartmentList()
-    const apartment = data?.find((item) => item.id === id)
+    const data: Apartment[] = getApartmentList()
+    const apartment = data.find((item) => item.id === id)
     return apartment
 }
 
 export function deleteApartment(id: number) { 
-    const data = getApartmentList()
+    const data: Apartment[] = getApartmentList()
     const filteredList = data.filter((item) => item.id !== id)
     
     if (filteredList.length < data.length) {
