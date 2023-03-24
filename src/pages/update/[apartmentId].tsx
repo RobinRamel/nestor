@@ -24,9 +24,9 @@ const UpdateApartment: NextPage = () => {
         
         
         if ( !apartmentById && router.isReady ) {
-            // setLoading(true)
             const newData = setLocalStoWithBaseData()
-            console.log(newData)
+            
+            
             if(newData) {
                 dispatch(initiateData(newData))
                 setLoading(false)
@@ -37,7 +37,7 @@ const UpdateApartment: NextPage = () => {
         }
     }, [router])
 
-    // gandling the click on checkboxes 
+    // handling the click on checkboxes 
     const handleCheckbox = (event: ChangeEvent<HTMLInputElement>) => {
         const find = tags.find(element => element === event.target.value)
         // means it already exist so remove

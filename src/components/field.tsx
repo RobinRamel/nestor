@@ -15,7 +15,7 @@ const Field = ({ type, name, placeholder, required, label, id, value }: Props) =
     const inputId = `nestor-${name}`
     
     const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
-        console.log(event.target.value)
+        
     }
 
     return (

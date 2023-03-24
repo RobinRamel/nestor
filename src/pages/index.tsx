@@ -10,6 +10,7 @@ import CardsList from '@/components/cardsList'
 import Navbar from '@/components/navBar'
 import { setLocalStoWithBaseData } from '@/helpers/apiAction'
 
+// HOMEPAGE
 const IndexPage: NextPage = () => {
   const dispatch = useDispatch()
   const isLoading = useSelector((state: AppState) => state.apartments.loading)

@@ -10,6 +10,7 @@ import { AppState } from "@/store";
 import { MapIcon } from "@heroicons/react/24/outline"
 import { getApartmentById } from '@/helpers/apiAction';
 
+// VIEW D'UN APPARTEMNT 
 const ApartmentView: NextPage = () => {
     const router = useRouter()
     const { id } = router.query
